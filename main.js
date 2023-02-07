@@ -1,3 +1,5 @@
+tint_colour = "";
+
 function preload() {
 }
 
@@ -6,8 +8,7 @@ function setup() {
   canvas.position(110, 250);
   video = createCapture(VIDEO);
   video.hide();
-  
-  tint_colour = "";
+ 
 }
 
 function draw() {
