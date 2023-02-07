@@ -22,6 +22,6 @@ function take_snapshot(){
   
 }
 
-function tint(){
+function addTint(){
   tint_colour = document.getElementById("color_name").value;
 }
